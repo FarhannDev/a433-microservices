@@ -4,7 +4,7 @@ services:
   item-app:
     image: farhan18/item-app:v1 # Ganti dengan nama image item-app yang sesuai dari Docker Hub atau GitHub Packages.
     ports:
-      - 8080:8080
+      - 80:8080
     depends_on:
       - item-db
     restart: always # Kebijakan restart untuk service item-app
