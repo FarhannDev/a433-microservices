@@ -2,7 +2,7 @@ version: '2'
 
 services:
   item-app:
-    image: item-app:v1 # Ganti dengan nama image item-app yang sesuai dari Docker Hub atau GitHub Packages
+    image: item-app:v1 # Ganti dengan nama image item-app yang sesuai dari Docker Hub atau GitHub Packages.
     ports:
       - 8080:8080
     depends_on:
