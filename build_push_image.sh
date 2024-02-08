@@ -3,7 +3,6 @@ Copy code
 
 # Set environment variables
 export DOCKER_USERNAME="farhan18"
-export DOCKER_PASSWORD="your_docker_password"
 
 # Variabel untuk nama image yang akan dibuat
 IMAGE_NAME="item-app"
