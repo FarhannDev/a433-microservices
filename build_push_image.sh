@@ -15,7 +15,7 @@ docker build -t $IMAGE_NAME:$IMAGE_VERSION .
 
 # Jalankan perintah untuk login ke Docker Hub
 echo "Logging in to Docker Hub..."
-echo  $PASSWORD_DOCKER_HUB | docker login -u $DOCKER_USERNAME --password-stdin
+echo ../dockerpass.txt  | docker login -u $DOCKER_USERNAME --password-stdin
 
 # Tag image dengan nama pengguna Docker Hub
 docker tag $IMAGE_NAME:$IMAGE_VERSION $DOCKER_USERNAME/$IMAGE_NAME:$IMAGE_VERSION
