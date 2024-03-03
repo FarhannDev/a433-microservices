@@ -1,4 +1,6 @@
 #!/bin/bash
+# Shell Scripting ini digunakan untuk membangun docker image ke repositori github packages
+echo 'Welcome to Bash scripting!'
 
 # Set environment variable
 GITHUB_USERNAME="farhanndev"
