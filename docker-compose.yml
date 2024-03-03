@@ -1,0 +1,13 @@
+version: "1.0"
+services:
+  order-service:
+    build: .
+    environment:
+      - AMQP_URL=amqp://rabbitmq:5672
+spec:
+  containers:
+    - name: order-service
+      image: image-name
+      env:
+        - name: AMQP_URL
+          value: "amqp://rabbitmq:5672"
