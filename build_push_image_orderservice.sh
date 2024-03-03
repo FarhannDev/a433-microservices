@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Set environment variables
+# Set environment variable
 GITHUB_USERNAME="farhanndev"
 GITHUB_TOKEN="$CR_PAT"
 IMAGE_NAME="order-service"
